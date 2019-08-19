@@ -6,9 +6,9 @@ import(
 
 
 func init() {
-	fmt.Print("code1 init\n")
+	fmt.Print("code2 init\n")
 }
 
-func f2(){
-	fmt.Print("code1->f1")
+func Show2(){
+	fmt.Print("code2->Show2")
 }

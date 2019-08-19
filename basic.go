@@ -25,10 +25,34 @@ type Iuser interface {
 
 //声明函数
 func studyKnowladge(){
-	fmt.Print(NAME+"好好学习 天天向上")
+	fmt.Print(NAME+"好好学习 天天向上\n")
 }
+
+const A1  = iota
+const A2  = iota
+const (
+	A3=iota
+	A4=iota
+	A5=iota
+	_
+	_
+	A6=iota
+)
 
 //入口函数
 func main() {
+	fmt.Print("\nA1=")
+	fmt.Print(A1)
+	fmt.Print("\nA2=")
+	fmt.Print(A2)
+	fmt.Print("\nA3=")
+	fmt.Print(A3)
+	fmt.Print("\nA4=")
+	fmt.Print(A4)
+	fmt.Print("\nA5=")
+	fmt.Print(A5)
+	fmt.Print("\nA6=")
+	fmt.Print(A6)
+	fmt.Print("\n")
 	studyKnowladge()
 }
